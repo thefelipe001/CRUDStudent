@@ -1,0 +1,55 @@
+﻿@model WebApplication10.Models.StudentsViewModels
+
+<header class="page-header">
+    <h2>@ViewData["Title"]</h2>
+    <!-- Breadcrumb-->
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">Inicio</a></li>
+        <li class="breadcrumb-item"><a href="/">Mantenimiento</a></li>
+        <li class="breadcrumb-item"><a asp-action="Index">Students</a></li>
+        <li class="breadcrumb-item active"> @ViewData["Title"]</li>
+    </ol>
+</header>
+<section class="DivForm">
+        <div class="container-fluid">
+            <form enctype="multipart/form-data" novalidate="novalidate" asp-action="Create" asp-controller="Students">
+                <fieldset>
+                    <legend>Create Students</legend>
+                <div class="row">
+                    <div class="col-md-4">
+                        <label class="control-label" asp-for="ID"></label>
+                        <input class="form-control" type="number" id="ID"  asp-for="ID" />
+                    </div>
+                    <div class="col-md-4">
+                       <label class="control-label" asp-for="FirstMidName"></label>
+                       <input class="form-control" id="FirstMidName" asp-for="FirstMidName" type="text" />
+                    </div>
+                    <div class="col-md-4">
+                        <label class="control-label" asp-for="LastName"></label>
+                        <input class="form-control" id="LastName" type="text" asp-for="LastName"/>
+                    </div>
+                    <div class="space"></div>
+                    <div class="col-md-4">
+                        <label class="control-label" asp-for="EnrollmentDate"></label>
+                        <input class="form-control" id="EnrollmentDate" type="date" asp-for="EnrollmentDate" />
+                    </div>
+                    <div class="col-md-4">
+                        <label class="control-label" asp-for="Secret"></label>
+                        <input class="form-control" id="Secret" type="text"  asp-for="Secret" />
+                    </div>
+
+                </div>
+                </fieldset>
+                <button class="btn btn-primary" type="button" onclick="SaveAll()">Save</button>
+                <button class="btn btn-success" type="button">Return</button>
+  
+            </form>
+       </div>
+</section>
+@section Styles{
+    <link href="~/css/StudentCrud.css" rel="stylesheet"  />
+}
+
+@section Scripts{
+    <script src="~/js/StudentCrud.js"></script>
+}

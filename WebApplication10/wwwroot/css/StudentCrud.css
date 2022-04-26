@@ -1,0 +1,25 @@
+.space{
+    margin-top: 30px;
+}
+
+label{
+    font-weight:bolder;
+}
+legend{
+    color: red;
+    font-weight: bolder;
+}
+
+.btn-primary {
+    margin-top: 40px;
+    float: right;
+    width: 70px;
+    height: 40px;
+}
+
+.btn-success {
+    margin-top: 30px;
+    width: 70px;
+    height: 40px;
+    float: left;
+}

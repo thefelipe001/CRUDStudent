@@ -1,0 +1,12 @@
+C:\Users\Felipe\source\repos\WebApplication10\Aplication.Core\bin\Debug\net6.0\Aplication.Core.deps.json
+C:\Users\Felipe\source\repos\WebApplication10\Aplication.Core\bin\Debug\net6.0\Aplication.Core.dll
+C:\Users\Felipe\source\repos\WebApplication10\Aplication.Core\bin\Debug\net6.0\Aplication.Core.pdb
+C:\Users\Felipe\source\repos\WebApplication10\Aplication.Core\obj\Debug\net6.0\Aplication.Core.csproj.AssemblyReference.cache
+C:\Users\Felipe\source\repos\WebApplication10\Aplication.Core\obj\Debug\net6.0\Aplication.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Felipe\source\repos\WebApplication10\Aplication.Core\obj\Debug\net6.0\Aplication.Core.AssemblyInfoInputs.cache
+C:\Users\Felipe\source\repos\WebApplication10\Aplication.Core\obj\Debug\net6.0\Aplication.Core.AssemblyInfo.cs
+C:\Users\Felipe\source\repos\WebApplication10\Aplication.Core\obj\Debug\net6.0\Aplication.Core.csproj.CoreCompileInputs.cache
+C:\Users\Felipe\source\repos\WebApplication10\Aplication.Core\obj\Debug\net6.0\Aplication.Core.dll
+C:\Users\Felipe\source\repos\WebApplication10\Aplication.Core\obj\Debug\net6.0\refint\Aplication.Core.dll
+C:\Users\Felipe\source\repos\WebApplication10\Aplication.Core\obj\Debug\net6.0\Aplication.Core.pdb
+C:\Users\Felipe\source\repos\WebApplication10\Aplication.Core\obj\Debug\net6.0\ref\Aplication.Core.dll
